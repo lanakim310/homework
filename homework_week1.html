@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>숙제_귀걸이 샵</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+
+    <style>
+        .crop {
+
+            overflow: hidden;
+            margin: auto;
+        }
+
+        .crop img {
+            max-height: initial;
+            margin-top: -5%;
+        }
+
+        .total {
+            width: 500px;
+            align-content: center;
+            font-family: 'Nanum Myeongjo', serif;
+            font-family: 'Noto Sans KR', sans-serif;
+            width: 500px;
+            margin: 30px auto;
+        }
+
+        .lead {
+            align-items: center;
+        }
+
+        .form-group {
+            width: 200px;
+        }
+
+        .title {
+            font-weight: bold;
+        }
+
+
+    </style>
+
+
+    <script>
+        function hello() {
+            alert("주문이 완료되었습니다!")
+        }
+    </script>
+
+
+</head>
+
+
+
+<body>
+
+<div class="total">
+
+    <!---이미지--->
+    <div class="crop">
+        <img src="earing01.jpg" width="100%" height="100%">
+    </div>
+    <p></p>
+    <!----텍스트---->
+    <h2 class="title">한국 귀걸이 FROM CHINA </h2> <h6>가격: 9,000원/개</h6>
+
+
+    <p>
+        이 상품으로 말할것 같으면 제가 중국에서 사온 귀걸이에요
+        한국에서 만든것 처럼 보일려고 택갈이했어요.비싸 보이려고 직접 사진도 찍었어요. 친구가 찍어줬어요.
+
+    </p>
+    <p>
+
+    </p>
+
+    <h2 class="title">주문 하기 </h2>
+
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text">주문자 성함</span>
+        </div>
+        <input type="text" class="form-control" id="order-name" placeholder="성함을 입력하세요.">
+    </div>
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <label class="input-group-text">수량</label>
+        </div>
+        <select class="custom-select" id="order-count">
+            <option selected value=""> -- 수량을 선택하세요 --</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text">주소</span>
+        </div>
+        <input type="email" class="form-control" id="order-name" placeholder="주소를 입력하세요">
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text">전화번호</span></div>
+        <input type="email" class="form-control" id="order-name" placeholder="전화번호를 입력하세요">
+    </div>
+
+    <p class="lead">
+        <a class="btn btn-primary btn-sm" onclick="hello()" href="#" role="button">주문 하기</a>
+
+</div>
+
+
+</div>
+
+
+
+</body>
+</html>
